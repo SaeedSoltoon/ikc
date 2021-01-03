@@ -85,8 +85,10 @@ p {
   font-style: normal !important;
 }
 
-.container {
-  padding: 80px 120px;
+@media (min-width: 767px) {
+  .container {
+    padding: 80px 120px;  
+  }
 }
 
 .person {
@@ -118,6 +120,9 @@ p {
   .carousel-caption {
     display: none;
     /* Hide the carousel text when the screen is less than 600 pixels wide */
+  }
+  .container {    
+    margin-top:55px;
   }
 }
 
